@@ -22,12 +22,7 @@ def main():
     char = string.ascii_letters + string.digits + string.punctuation
     guess(char, 8)
 
-
-def test_main():
-    main()
-
-
 if __name__ == '__main__':
-    timer = time()
+    # timer = time()
     main()
-    logging.info(time() - timer)
+    # logging.info(time() - timer)
